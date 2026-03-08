@@ -37,6 +37,7 @@ This repository contains solutions for Node.js Fundamentals assignment. The assi
 
 ### File System (src/fs)
 
+- `npm run fs:seed` - Create example `workspace/` fixture for local testing
 - `npm run fs:snapshot` - Create snapshot of workspace directory
 - `npm run fs:restore` - Restore directory structure from snapshot
 - `npm run fs:findByExt` - Find files by extension in workspace
