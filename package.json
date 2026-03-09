@@ -8,6 +8,7 @@
   },
   "type": "module",
   "scripts": {
+    "test": "node --test",
     "fs:seed": "node src/fs/seedWorkspace.js",
     "fs:snapshot": "node src/fs/snapshot.js",
     "fs:restore": "node src/fs/restore.js",
