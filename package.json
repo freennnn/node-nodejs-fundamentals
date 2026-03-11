@@ -18,6 +18,7 @@
     "cli:progress": "node src/cli/progress.js",
     "cli:progress:red": "node src/cli/progress.js --color '#FF2800'",
     "modules:dynamic": "node src/modules/dynamic.js uppercase",
+    "modules:dynamic:manual-module": "node src/modules/dynamic.js",
     "hash:verify": "node src/hash/verify.js",
     "streams:lineNumberer": "echo 'hello\nworld' | node src/streams/lineNumberer.js",
     "streams:filter": "echo 'hello\nworld\ntest' | node src/streams/filter.js --pattern test",
