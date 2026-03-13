@@ -34,12 +34,6 @@ const dynamic = async () => {
 
   const result = plugin.run()
   console.log(result)
-
-  // Write your code here
-  // Accept plugin name as CLI argument
-  // Dynamically import plugin from plugins/ directory
-  // Call run() function and print result
-  // Handle missing plugin case
 }
 
 await dynamic()
